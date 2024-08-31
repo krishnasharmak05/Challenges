@@ -1,0 +1,1 @@
+n = int(input());exec('def fibonacci(n):\n    a = 0\n    b = 1\n    if n < 0:\n        print("Incorrect input")\n    elif n == 0:\n        print(0)\n    elif n == 1:\n        print(b)\n    else:\n        for i in range(1, n):\n            c = a + b\n            a = b\n            b = c\n            print(b)\n') or fibonacci(n)
